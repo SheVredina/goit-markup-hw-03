@@ -1,0 +1,228 @@
+:root {
+  --main-text-color: #2e2f42;
+  --second-text-color: #434455;
+  --main-bg-color:--#ffffff;
+  --second-bg-color: #F4F4FD;
+  --btn-bg-color: #F4F4FD;
+  --btn-bg-color-activ: #404BBF;
+  --btn-text-color: #4D5AE5;
+  --btn-text-color-activ: #ffffff;
+    
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #2e2f42;
+  background-color: #ffffff;
+  }
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* Header */
+ .header {
+}
+.header-navigation {
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.header-logo-web {
+  color: blue;
+}
+.header-list {
+   }
+.header-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  }
+.header-nav:focus,
+.header-nav:hover,
+.header-nav.current {
+  color: #434455;
+}
+.header-tel {
+}
+.header-tel-list {
+ }
+.header-tel-link {
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  }
+.kontakts {
+    font-style: normal;
+  } 
+
+/* ------------Banner-------------*/
+.banner {
+  background-color: #2e2f42;
+}
+.banner-text {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.banner-btn {
+  font-family: inherit;
+  background: var(--btn-bg-color-activ);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  color: var(--btn-text-color-activ)
+}
+/* .banner-btn:focus,
+.banner-btn:hover {
+cursor: pointer;
+color:var(--btn-text-color-activ);
+background-color: var(--btn-bg-color-activ);} */
+/* ------------Feature ------------------*/
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.feature {
+}
+.feature-tytle {
+}
+.feature-list {
+}
+.feature-list-item {
+}
+.feature-list-tytle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  }
+.feature-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+/* ---------------------promo ---------------------*/
+promo {
+}
+.promo-tytel {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.promo-list {
+}
+.promo-list-item {
+}
+/* -----------------------Team ----------------------*/
+.team {
+    background-color: var(--second-bg-color);
+}
+.team-tytel {
+  font-size: 36px;
+  line-height:1.11
+  text-align:center;
+  letter-spacing: 0.02em;
+  text-transform:capitalize;
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+  }
+.team-name-backgraund {
+  background-color: #ffffff;
+}
+.team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+
+/* Footer */
+footer {
+  background: #2e2f42;
+}
+.footer-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-link-web {
+  color: #4d5ae5;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+/* -------------Filtres-------- */
+.filtres{
+}
+.filtres-btn {
+    font-family: inherit;
+    background: var(--btn-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    color: var(--btn-text-color); 
+   }
+.filtres-btn:focus,
+.filtres-btn:hover {
+cursor: pointer;
+color:var(--btn-text-color-activ);
+background-color: var(--btn-bg-color-activ);
+}
+/* ---------Projekt Cards -------*/
+.cards-list{
+}
+.cards-list-item {
+}
+.cards-foto {
+}
+.cards-list-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.cards-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-text-color);
+}
+
