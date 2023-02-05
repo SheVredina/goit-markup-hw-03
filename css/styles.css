@@ -51,7 +51,7 @@ padding: 120px;
   max-width: 1158px;
    padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 /* Header */
  .header {
@@ -343,12 +343,14 @@ background-color: var(--btn-bg-color-activ);
 }
 .cards-list-item {
   }
-  .cards-list-text {
+   
+.cards-list-text {
    border: 2px solid #F4F4FD; 
    border-top:none ;
    padding-top: 32px;
    padding-bottom: 32px;
-  }
+   padding-left: 16px;
+}
 
 .cards-foto {
 }
