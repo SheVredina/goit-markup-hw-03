@@ -56,8 +56,8 @@ padding: 120px;
 }
 /* Header */
  .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+padding-top: 24px;
+padding-bottom: 24px;
 border-bottom-style: solid;
 border-bottom-color: var(--second-bg-color);
 border-bottom-width: 1px;
@@ -102,8 +102,7 @@ display: flex;
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
- 
-  }
+   }
 
   .header-list-item + .header-list-item {
 margin-left: 40px;
@@ -112,6 +111,9 @@ margin-left: 40px;
 .header-nav:hover,
 .header-nav.current {
   color: var(--btn-bg-color-activ);
+}
+.header-nav {
+color: var(--main-text-color);
 }
 
 .header-tel-list:focus,
@@ -141,7 +143,7 @@ margin-left: 40px;
 }
 .banner-text {
   display: block;
-  max-width: 700px;
+  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
   font-size: 56px;
@@ -167,15 +169,9 @@ margin-left: 40px;
   color: var(--btn-text-color-activ)
 }
 .banner-container {
-/* height: 600px; */
 justify-content: center;
-
 }
-/* .banner-btn:focus,
-.banner-btn:hover {
-cursor: pointer;
-color:var(--btn-text-color-activ);
-background-color: var(--btn-bg-color-activ);} */
+
 /* ------------Feature ------------------*/
 
 .visually-hidden {
@@ -200,16 +196,12 @@ background-color: var(--btn-bg-color-activ);} */
 .feature-list {
   display: flex;
   flex-wrap: wrap;
-  
   gap: 24px;
 
 }
 .feature-list-item {
   width: 264px;
  }
-/* .feature-list-item :nth-child(4n) {
-margin-right: 0;} */
-
 
 .feature-list-tytle {
   margin-bottom: 8px;
@@ -247,7 +239,7 @@ promo {
 .team {
     background-color: var(--second-bg-color);
     padding-top: 120px;
-    padding-bottom: 72px;
+    padding-bottom: 120px;
 
 }
 .team-tytel {
@@ -321,7 +313,7 @@ padding-bottom: 100px;
 }
 /* -------------Filtres-------- */
 .portfolio{
-  padding-top: 108px;
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
